@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="370sp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ff0000"
+        android:drawableLeft="@drawable/baseline_whatsapp_24"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        android:padding="20dp"
+        android:text="GOODWORD BOOKS"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="370sp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="#0079be"
+        android:drawableLeft="@drawable/baseline_signal_wifi_0_bar_24"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        android:padding="20dp"
+        android:text="VISIT OUR WEBSITE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="370sp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#2e3192"
+        android:drawableLeft="@drawable/baseline_whatsapp_24"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        android:padding="20dp"
+        android:text="WHATSAPP (USA)"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="370sp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="#00a884"
+        android:drawableLeft="@drawable/baseline_whatsapp_24"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        android:padding="20dp"
+        android:text="WHATSAPP (PK)"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/CONTACT_US"
+        android:layout_width="411dp"
+        android:layout_height="43dp"
+        android:background="@color/purple_700"
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=" CONTACT US"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Mess"
+        android:layout_width="367dp"
+        android:layout_height="79dp"
+        android:ems="18"
+        android:inputType="textPersonName"
+        android:text="Please write your message"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/sendBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="164dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="48dp"
+        android:background="#2e3192"
+        android:text="Send"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="50dp"
+        android:layout_height="30sp"
+        android:layout_marginBottom="32dp"
+        android:text="OR"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="207dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Get in touch with us"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="150dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Title"
+        app:layout_constraintBottom_toTopOf="@+id/Mess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center for Peace and Spirtuality"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CONTACT_US" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
